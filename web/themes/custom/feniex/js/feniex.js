@@ -1,21 +1,41 @@
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
-function navFunction() {
-  if ($("#navDropdown").hasClass("dropdown-content")) {
-    document.getElementById("navDropdown").classList.toggle("show");
-    // $(this).children('.dropdown-content').slideDown(200);
-    $("#navDropdown").animate({right: "0"}, 600);
+// function navFunction() {
+//   if ($("#navDropdown").hasClass("dropdown-content")) {
+//     document.getElementById("navDropdown").classList.toggle("show");
+//     // $(this).children('.dropdown-content').slideDown(200);
+//     $("#navDropdown").animate({right: "0"}, 600);
+//   } else {
+//     $("#navDropdown").animate({left: "0"}, 600);
+//     document.getElementById("navDropdown").classList.toggle("dropdown-content");
+//     alert("Yo")
+//   }
+// }
+
+
+// $(document).ready(function() {
+
+
+$("#toggle").click(function() {
+  if($(this).hasClass("clicked")){
+    $(this).removeClass("clicked");
+    document.getElementById("toggle").classList.toggle("change")
+
+    $("#slideview").animate({right: "420px"}, 400);
   } else {
-    $("#navDropdown").animate({left: "0"}, 600);
-    document.getElementById("navDropdown").classList.toggle("dropdown-content");
-    alert("Yo")
+    $(this).addClass("clicked");
+
+    $("#slideview").animate({right: "0px"}, 400);
+    document.getElementById("toggle").classList.toggle("change")
   }
-}
+});
 
 
+// });
+// });
 
 
-// // Close the dropdown menu if the user clicks outside of it
+// Close the dropdown menu if the user clicks outside of it
 // window.onclick = function(event) {
 //   if (!event.target.matches('.dropbtn')) {
 
@@ -24,7 +44,7 @@ function navFunction() {
 //     for (i = 0; i < dropdowns.length; i++) {
 //       var openDropdown = dropdowns[i];
 //       if (openDropdown.classList.contains('show')) {
-//         openDropdown.classList.remove('show').slideDown(3000);
+//         openDropdown.classList.remove('show');
 //       }
 //     }
 //   }
@@ -32,10 +52,12 @@ function navFunction() {
 
 
 
+
+
 // HAMBURGER BAR COLLAPSE
-function menuFunction(x) {
-    x.classList.toggle("change");
-}
+// function menuFunction(x) {
+//     x.classList.toggle("change");
+// }
 
 
 // function navFunction() {
@@ -43,17 +65,7 @@ function menuFunction(x) {
 // }
 
 
-// $(document).ready(function() {
-//     $("#navDropdown").animate({right: "0"}, 5000);
-// });
 
-
-
-// $("a").on('click', function(event) {
-//     $("#one").animate({left: "0"}, 2000);
-//     $("#two").animate({left: "0"}, 2250);
-//     $("#three").animate({left: "0"}, 2500);
-// });
 
 
 

@@ -1,192 +1,199 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 @import url("https://fonts.googleapis.com/css?family=Dosis");
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
-header {
+div#slideview {
   width: 100%;
-  height: 60px;
-  background-color: #e83625;
-  display: block;
-  font-family: "Dosis", sans-serif; }
-  header button.dropbtn {
-    background-color: #010101;
-    width: 10%;
-    height: 60px;
+  height: 100%;
+  position: relative;
+  padding: 0px;
+  overflow: visible;
+    overflow-overflow-x: visible;
+    overflow-overflow-y: visible;
+  backface-visibility: hidden;
+  right: 22%; }
+  div#slideview aside.dropdown-content {
+    position: relative;
+    width: 420px;
+    height: 970px;
     float: left;
-    cursor: pointer;
-    font-family: "Dosis", sans-serif;
-    border: 0px solid black; }
-    header button.dropbtn aside {
-      width: 60%;
-      height: 30px;
+    display: block;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    background-color: #020202;
+    letter-spacing: 2px;
+    padding: 0px;
+    opacity: 0.9; }
+    div#slideview aside.dropdown-content form {
+      width: 100%;
+      height: 60px;
+      background-color: #b8b8b9; }
+    div#slideview aside.dropdown-content figure {
+      width: 83px;
+      height: 83px;
+      background-image: url("../images/feniex.png");
+      background-color: #232322;
+      border-radius: 3px;
+      display: block;
+      background-repeat: no-repeat;
+      margin: 0 auto;
+      margin-top: 50px; }
+    div#slideview aside.dropdown-content a {
+      color: white;
+      display: block;
+      clear: both;
+      text-decoration: none;
+      border-bottom: 1px solid #535151;
+      padding-top: 3px;
+      margin-top: 20px;
+      height: 50px;
+      font-size: 18px;
+      font-weight: 0; }
+      div#slideview aside.dropdown-content a hr {
+        display: none; }
+    div#slideview aside.dropdown-content a:hover div#toplayer {
+      background-color: #ed2224;
+      position: absolute;
+      width: 100%;
+      height: 70px;
+      opacity: 0.1;
+      margin-top: -50px;
+      z-index: 10; }
+    div#slideview aside.dropdown-content a:hover hr {
+      width: 98.5%;
+      height: 1px;
+      display: block;
+      background-color: #ed2224;
+      border: 1px solid #ed2224;
+      margin-bottom: 50px;
+      margin-top: -15px;
+      z-index: 20; }
+    div#slideview aside.dropdown-content a:nth-of-type(1) {
+      margin-top: 33px; }
+    div#slideview aside.dropdown-content ul {
+      text-decoration: none;
+      list-style: none;
+      padding: 0px;
+      width: 26%;
+      height: 23px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 58px; }
+      div#slideview aside.dropdown-content ul li {
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+        float: left; }
+      div#slideview aside.dropdown-content ul li:nth-of-type(1) {
+        margin-right: 30px; }
+      div#slideview aside.dropdown-content ul li:nth-of-type(2) {
+        margin-right: 30px; }
+    div#slideview aside.dropdown-content div#distributer {
+      margin-top: 60px;
+      height: auto;
+      width: 43%;
+      padding-top: 15px;
+      font-weight: 100;
       margin: 0 auto; }
-      header button.dropbtn aside figure {
-        width: 30%;
-        height: 15px;
-        float: left;
-        margin: 6px 0px 0px 0px; }
-        header button.dropbtn aside figure div {
-          clear: both;
-          display: block;
-          width: 100%;
-          height: 3px;
-          background-color: #ffffff;
-          float: left;
-          transition: 0.4s; }
-        header button.dropbtn aside figure div:nth-of-type(2) {
-          margin: 3px 0px 3px 0px; }
-      header button.dropbtn aside span.menu {
-        color: #ffffff;
-        font-family: "Dosis", sans-serif;
-        display: block;
-        font-size: 16px;
-        letter-spacing: 2px;
-        float: right;
-        margin: 2px 0px 0px 10px;
-        font-weight: 100; }
-  header i#cart {
-    font-size: 25px;
-    margin: 17px 0px 0px 50px;
-    float: left; }
-  header span#cart {
-    color: #ffffff;
-    font-family: "Dosis", sans-seri;
-    font-size: 16px;
-    float: left;
-    margin: 18px 0px 0px 10px;
-    letter-spacing: 2px;
-    font-weight: 100; }
-  header span#three {
-    color: #010101;
-    font-family: "Dosis", sans-seri;
-    font-size: 16px;
-    margin: 18px 0px 0px 10px;
-    letter-spacing: 2px;
-    float: left;
-    font-weight: 100; }
-  header div#toplogo {
-    width: 38%;
+      div#slideview aside.dropdown-content div#distributer a {
+        height: 30px;
+        width: 100%;
+        border: 1px solid #ed2024;
+        border-radius: 3px;
+        padding: 6px 0px 0px 0px;
+        font-size: 12px; }
+  div#slideview header {
+    width: 100%;
     height: 60px;
-    float: left; }
-    header div#toplogo span#feniex {
+    background-color: #e83625;
+    display: block;
+    font-family: "Dosis", sans-serif; }
+    div#slideview header button.dropbtn {
+      background-color: #010101;
+      width: 10%;
+      height: 60px;
+      float: left;
+      cursor: pointer;
+      font-family: "Dosis", sans-serif;
+      border: 0px solid black; }
+      div#slideview header button.dropbtn aside {
+        width: 60%;
+        height: 30px;
+        margin: 0 auto; }
+        div#slideview header button.dropbtn aside figure {
+          width: 30%;
+          height: 15px;
+          float: left;
+          margin: 6px 0px 0px 0px; }
+          div#slideview header button.dropbtn aside figure div {
+            clear: both;
+            display: block;
+            width: 100%;
+            height: 3px;
+            background-color: #ffffff;
+            float: left;
+            transition: 0.4s; }
+          div#slideview header button.dropbtn aside figure div:nth-of-type(2) {
+            margin: 3px 0px 3px 0px; }
+        div#slideview header button.dropbtn aside span.menu {
+          color: #ffffff;
+          font-family: "Dosis", sans-serif;
+          display: block;
+          font-size: 16px;
+          letter-spacing: 2px;
+          float: right;
+          margin: 2px 0px 0px 10px;
+          font-weight: 100; }
+    div#slideview header i#cart {
+      font-size: 25px;
+      margin: 17px 0px 0px 50px;
+      float: left; }
+    div#slideview header span#cart {
       color: #ffffff;
       font-family: "Dosis", sans-seri;
       font-size: 16px;
-      font-weight: 100;
+      float: left;
+      margin: 18px 0px 0px 10px;
       letter-spacing: 2px;
-      float: right;
-      margin: 18px 0px 0px 0px; }
-  header figure#flag {
-    width: 106px;
-    height: 60px;
-    background-image: url("../images/americanflag.jpeg");
-    float: right; }
-
-aside.dropdown-content {
-  position: relative;
-  width: 420px;
-  height: 970px;
-  float: left;
-  right: 30%;
-  display: block;
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-  background-color: #020202;
-  letter-spacing: 2px;
-  padding: 0px;
-  opacity: 0.9; }
-  aside.dropdown-content form {
-    width: 100%;
-    height: 60px;
-    background-color: #b8b8b9; }
-  aside.dropdown-content figure {
-    width: 83px;
-    height: 83px;
-    background-image: url("../images/feniex.png");
-    background-color: #232322;
-    border-radius: 3px;
-    display: block;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    margin-top: 50px; }
-  aside.dropdown-content a {
-    color: white;
-    display: block;
-    clear: both;
-    text-decoration: none;
-    border-bottom: 1px solid #535151;
-    padding-top: 3px;
-    margin-top: 20px;
-    height: 50px;
-    font-size: 18px;
-    font-weight: 0; }
-    aside.dropdown-content a hr {
-      display: none; }
-  aside.dropdown-content a:hover div#toplayer {
-    background-color: #ed2224;
-    position: absolute;
-    width: 100%;
-    height: 70px;
-    opacity: 0.1;
-    margin-top: -50px;
-    z-index: 10; }
-  aside.dropdown-content a:hover hr {
-    width: 98.5%;
-    height: 1px;
-    display: block;
-    background-color: #ed2224;
-    border: 1px solid #ed2224;
-    margin-bottom: 50px;
-    margin-top: -15px;
-    z-index: 20; }
-  aside.dropdown-content a:nth-of-type(1) {
-    margin-top: 33px; }
-  aside.dropdown-content ul {
-    text-decoration: none;
-    list-style: none;
-    padding: 0px;
-    width: 26%;
-    height: 23px;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 58px; }
-    aside.dropdown-content ul li {
-      text-decoration: none;
-      color: white;
-      font-size: 17px;
+      font-weight: 100; }
+    div#slideview header span#three {
+      color: #010101;
+      font-family: "Dosis", sans-seri;
+      font-size: 16px;
+      margin: 18px 0px 0px 10px;
+      letter-spacing: 2px;
+      float: left;
+      font-weight: 100; }
+    div#slideview header div#toplogo {
+      width: 30%;
+      height: 60px;
       float: left; }
-    aside.dropdown-content ul li:nth-of-type(1) {
-      margin-right: 30px; }
-    aside.dropdown-content ul li:nth-of-type(2) {
-      margin-right: 30px; }
-  aside.dropdown-content div#distributer {
-    margin-top: 60px;
-    height: auto;
-    width: 63%;
-    padding-top: 20px;
-    font-size: 18px;
-    font-weight: 100;
-    margin: 0 auto;
-    font-size: 12px; }
-    aside.dropdown-content div#distributer a {
-      height: 30px;
-      width: 100%;
-      border: 1px solid #ed2024;
-      border-radius: 3px; }
-
-section#content {
-  background-image: url("../images/hero.jpeg");
-  width: 100%;
-  height: 910px;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: auto 100%; }
-  section#content div#nopath {
-    width: 598px;
-    height: 354px;
-    background-image: url("../images/no_path_needed.PNG");
-    float: left;
-    margin: 70px 0px 0px 170px; }
+      div#slideview header div#toplogo span#feniex {
+        color: #ffffff;
+        font-family: "Dosis", sans-seri;
+        font-size: 16px;
+        font-weight: 100;
+        letter-spacing: 2px;
+        float: right;
+        margin: 18px 0px 0px 0px; }
+    div#slideview header figure#flag {
+      width: 106px;
+      height: 60px;
+      background-image: url("../images/americanflag.jpeg");
+      float: right; }
+  div#slideview section#content {
+    background-image: url("../images/hero.jpeg");
+    width: 100%;
+    height: 910px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: auto 100%; }
+    div#slideview section#content div#nopath {
+      width: 598px;
+      height: 354px;
+      background-image: url("../images/no_path_needed.PNG");
+      float: left;
+      margin: 70px 0px 0px 170px; }
 
 aside.show {
   display: block; }
