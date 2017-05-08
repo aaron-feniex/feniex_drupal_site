@@ -1,0 +1,43 @@
+global-css:
+  css:
+    theme:
+      css/style.css: {}
+
+global-js:
+  js:
+    js/feniex.js: {}
+    
+  dependencies:
+    - core/jquery
+
+
+
+
+
+
+
+
+
+## Not good idea to use CDN for libraries but this is an example of how its done
+
+# font-awesome:
+#   remote: https://fortawesome.github.io/Font-Awesome/
+#   version: 4.5.0
+#   license:
+#     name: MIT
+#     url: https://fortawesome.github.io/Font-Awesome/license/
+#     gpl-compatible: true
+#   css:
+#     theme:
+#       https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css: { type: external, minified: true }
+
+
+# angular.angularjs:
+#   remote: https://github.com/angular/angular.js
+#   version: 1.4.4
+#   license:
+#     name: MIT
+#     url: https://github.com/angular/angular.js/blob/master/LICENSE
+#     gpl-compatible: true
+#   js:
+#     https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js: { type: external, minified: true }

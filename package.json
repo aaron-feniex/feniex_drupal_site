@@ -1,0 +1,21 @@
+{
+  "name": "feniex",
+  "version": "1.0.0",
+  "description": "feniex_app",
+  "main": "index.js",
+  "dependencies": {
+    "grunt-contrib-compass": "^0.6.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-compass": "^0.6.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-iced-coffee": "^0.7.0-a"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aaron Brown",
+  "license": "ISC"
+}

@@ -1,0 +1,21 @@
+name: feniex
+type: theme
+description: 'A sweet theme that rocks.'
+core: 8.x
+libraries:
+  - feniex/global-css
+  - feniex/global-js
+base theme: classy
+regions:
+  header: header
+  content: content
+  sidebar_first: 'Sidebar first'
+  footer: footer
+stylesheets-remove:
+  - '@classy/css/components/tabs.css'
+  - core/assets/vendor/normalize-css/normalize.css
+css:
+ theme:
+   includes/bootstrap/css/bootstrap.css: {}
+   css/style.css: {} 
+  
